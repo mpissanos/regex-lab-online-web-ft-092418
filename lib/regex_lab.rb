@@ -21,5 +21,5 @@ text.match(/^[A-Z]\W$/)
 end
 
 def valid_phone_number?(phone)
-phone.match(/[^A-Z,a-z]\(?\d{1,4}/)
+phone.match(/[^A-Z,a-z]\(?\d{1,4}[^A-Z, a-z]/)
 end
